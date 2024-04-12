@@ -905,8 +905,7 @@ generic_wrapper() {
 
 # The menu to use instead of fzf when -D is specified
 external_menu() {
-	# dmenu extremely laggy when showing tabs
-	tr -d '\t' | remove_ansi_escapes | dmenu -i -l 30 -p "$1"
+	tr -d '\t' | remove_ansi_escapes | wofi -d -p "$1"
 }
 
 search_prompt_menu() {
