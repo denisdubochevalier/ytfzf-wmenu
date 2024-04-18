@@ -905,7 +905,7 @@ generic_wrapper() {
 
 # The menu to use instead of fzf when -D is specified
 external_menu() {
-	tr -d '\t' | remove_ansi_escapes | wofi -d -p "$1"
+	tr -d '\t' | remove_ansi_escapes | wmenu -N272727 -nc2d89c -M668f31 -mc2d89c -S668f31 -sc2d89c -p "$1"
 }
 
 search_prompt_menu() {

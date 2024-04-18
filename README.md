@@ -2,7 +2,7 @@
 
 This project is no longer actively maintained, it should still work for the foreseeable future
 
-This is a fork of the original project, using wofi instead of dmenu when called with `-D` parameter.
+This is a fork of the original project, using wmenu instead of dmenu when called with `-D` parameter.
 ---
 
 <p align="center">
@@ -61,7 +61,7 @@ There are only 2 required dependencies, however the rest require some configurat
 ## Optional dependencies
 
 - [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) (for downloading)
-- [`wofi`](https://hg.sr.ht/~scoopta/wofi) (only if using the -D option)
+- [`wmenu`](https://sr.ht/~adnano/wmenu/) (dmenu replacement for wayland)
 - [`ueberzugpp`](https://github.com/jstkdng/ueberzugpp)
   - needed for the following thumbnail viewers:
     - `kitty`, `iterm2`, `sixel`, and `ueberzug`
@@ -156,7 +156,7 @@ To use an extension addon run `ytfzf -e <extension> ...`
 ytfzf -t <search>
 ```
 
-> Use `wofi` as the menu instead of `fzf`
+> Use `wmenu` as the menu instead of `dmenu`
 
 ```sh
 ytfzf -D <search>
