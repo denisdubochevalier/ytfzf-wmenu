@@ -2,7 +2,7 @@
 
 This project is no longer actively maintained, it should still work for the foreseeable future
 
-This is a fork of the original project, using wmenu instead of dmenu when called with `-D` parameter.
+This is a fork of the original project, using wmenu instead of dmenu when called with `-D` parameter. Additionally, we use Kitty as vo driver.
 ---
 
 <p align="center">
